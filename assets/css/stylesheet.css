@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+
+
+
+body{
+    
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/14/79/42566d280036778.jpg");
+    background-size: cover;
+    widows: 80%;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+#container{
+    background-color:white;
+}    

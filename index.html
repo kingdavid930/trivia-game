@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>trivia game</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+</head>
+
+<div id="container">
+    <div id="startScreen">
+        <p>Trivial Sports Trivia!!! </p>
+        
+       <button id="start">start</button>
+
+    </div>
+    <div id="quiz">
+            <P>Time Remaining:
+                    <span id ="timer">0</span></P>
+    <div class="question">
+        <p>Who was the Lakers all time leading scorer?</p>
+        <input type="radio" name="1" value="Magic Johnson">
+        <label for="">Magic Johnson</label>
+        <input type="radio" name="1" value="Kobe Bryant">
+        <label for="">Kobe Bryant</label>
+        <input type="radio" name="1" value="Shaquille O'neil">
+        <label for="">Shaquille O'neil</label>
+        <input type="radio" name="1" value="Kareem Abudl Jabar">
+        <label for="">Kareem Abudl Jabar</label>
+    </div>
+    <div class="question">
+        <p>Who is the Lakers all time leader in assists?</p>
+        <input type="radio" name="2" value="Magic Johnson">
+        <label for="">Magic Johnson</label>
+        <input type="radio" name="2" value="Kobe Bryant">
+        <label for="">Kobe Bryant</label>
+        <input type="radio" name="2" value="James Worthy">
+        <label for="">James Worthy</label>
+        <input type="radio" name="2" value="Shaquille O'neil">
+        <label for="">Shaquille O'neil</label>
+    </div>
+    <div class="question">
+        <p>How many championship did the Lakers win total?</p>
+        <input type="radio" name="3" value="14">
+        <label for="">14</label>
+        <input type="radio" name="3" value="15">
+        <label for="">15</label>
+        <input type="radio" name="3" value="16">
+        <label for="">16</label>
+        <input type="radio"name="3" value="17">
+        <label for="">17</label>
+    </div>
+    <div class="question">
+        <p>Who was the Lakers 2nd overall draft pick in 2017?</p>
+        <input type="radio" name="4" value="Lonzo Ball">
+        <label for="">Lonzo Ball</label>
+        <input type="radio" name="4" value="Kyle Kuzma">
+        <label for="">Kyle Kuzma</label>
+        <input type="radio" name="4" value="Josh Hart">
+        <label for="">Josh Hart</label>
+        <input type="radio" name="4" value="Julius Randle">
+        <label for="">Julius Randle</label>
+    </div>
+    <button id="finish">finish</button>
+</div>
+    <div id="results">
+            
+            <p id="Correct"></p>
+            <p id="Incorrect"></p>
+            <p id="Unanswered"></p>
+    </div>
+</div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
